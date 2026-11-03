@@ -1,0 +1,12 @@
+hypothesis,what was tested,values,effect size,test,p-value
+H1,Share of women: before 1990 vs 1990 and later,7.0% -> 22.8%,15.8 pp (95% CI 15.4 to 16.2),chi-square,<0.001
+H1 check,"Same, without years with more than 3000 artworks",8.6% -> 23.6%,,chi-square,<0.001
+H3,Share of women among artists: 1 work vs 21+ works,18.7% -> 15.0%,-3.7 pp (95% CI -6.1 to -1.3),chi-square,0.0038
+H3 check,Share of women across all 4 groups of artists,,,chi-square,0.0166
+Works per artist,Women vs men,medians 2 vs 2,P(woman has more works) = 0.484,Mann-Whitney U,0.0128
+Artwork size,Area by department (log10),,eta squared = 0.17,ANOVA,<0.001
+H1 within decade,Works created in 1950s: acquired before 1990 vs 1990 and later,6.2% -> 12.8%,6.6 pp,descriptive (no test),
+H1 within decade,Works created in 1960s: acquired before 1990 vs 1990 and later,8.3% -> 14.5%,6.2 pp,descriptive (no test),
+H1 within decade,Works created in 1970s: acquired before 1990 vs 1990 and later,10.6% -> 14.6%,4.0 pp,descriptive (no test),
+H1 within decade,Works created in 1980s: acquired before 1990 vs 1990 and later,14.2% -> 19.2%,5.0 pp,descriptive (no test),
+H2,Top nationalities among authorships (nationality known),"American 45.6%, French 17.8%, German 7.6%",,descriptive (no test),
